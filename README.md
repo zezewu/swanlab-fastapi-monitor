@@ -1,13 +1,23 @@
-# 📈 2026 MCM/ICM 数据工程与算法实现
+# 🚀 AI Inference Monitoring Service (FastAPI + SwanLab)
 
-本项目包含在 2026 年国际大学生数学建模竞赛中，用于底层数据清洗、特征工程与核心算法求解的 Python 脚本。
+这是一个基于 FastAPI 和 PyTorch 构建的图像识别后端推理服务，并创新性地接入了 SwanLab SDK，实现了线上业务请求的实时打点与数据面板监控。
 
-## ⚙️ 核心工作
-* **数据清洗流水线：** 使用 `Pandas` 和 `NumPy` 处理海量非结构化赛题数据，处理缺失值并进行降维。
-* **算法求解：** 编写高效脚本实现 [填入你们用的具体算法，如时间序列预测、随机森林等] 进行数据拟合与验证。
-* **可视化：** 使用 `Matplotlib/Seaborn` 生成多维数据关系图表，为全英文技术报告提供数据支撑。
+## ✨ 核心特性
+* **异步后端：** 使用 FastAPI 处理高并发的 RESTful API 请求。
+* **硬件加速：** 自动检测并调用 Mac MPS (Metal Performance Shaders) 进行 PyTorch 推理加速。
+* **实时监控：** 将 SwanLab 从离线训练工具魔改为线上监控大盘，实时追踪 API 响应延迟（Latency）和用户多模态请求（Image）。
 
-## 📂 目录结构
-* `/data_processing`: 数据清洗与特征提取脚本
-* `/models`: 核心算法求解代码
-* `/visualizations`: 生成的可视化图表资源
+## 🛠️ 技术栈
+* **Backend:** Python, FastAPI, Uvicorn
+* **AI/DL:** PyTorch, Torchvision
+* **Monitoring:** SwanLab
+
+## 📦 快速启动
+1. 安装依赖：`pip install -r requirements.txt`
+2. 生成本地测试模型权重：`python save_model.py`
+3. 启动后端服务：`python app.py`
+4. 访问交互式 API 文档：`http://127.0.0.1:8000/docs`
+
+## 📊 监控看板展示
+[这里放一张你的 SwanLab 云端折线图/图片面板的截图（非常重要！）]
+👉 **在线 Demo 看板:** [填入你的 SwanLab 公开链接]
