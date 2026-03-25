@@ -19,5 +19,6 @@
 4. 访问交互式 API 文档：`http://127.0.0.1:8000/docs`
 
 ## 📊 监控看板展示
-[这里放一张你的 SwanLab 云端折线图/图片面板的截图（非常重要！）]
-👉 **在线 Demo 看板:** [填入你的 SwanLab 公开链接]
+[<img width="631" height="363" alt="image" src="https://github.com/user-attachments/assets/f7c03566-7ed9-439b-bac5-ffe6a6910d37" />
+]
+👉 **在线 Demo 看板:** [https://swanlab.cn/space/zezewu]
