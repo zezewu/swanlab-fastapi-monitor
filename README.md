@@ -16,7 +16,7 @@
 1. 安装依赖：`pip install -r requirements.txt`
 2. 生成本地测试模型权重：`python save_model.py`
 3. 启动后端服务：`python app.py`
-4. 访问交互式 API 文档：`http://127.0.0.1:8000/docs`
+4. 访问交互式 API 文档：`http://127.0.0.1:8000/docs`(仅使用localhost PC)
 
 ## 📊 监控看板展示
 <img width="631" height="363" alt="image" src="https://github.com/user-attachments/assets/f7c03566-7ed9-439b-bac5-ffe6a6910d37" />
